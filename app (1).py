@@ -352,7 +352,8 @@ st.info(
     f"This score ranks customers by churn risk using contract type, tenure, monthly charges, "
     f"total charges, tech support status, and payment method.\n\n" 
     f"In the current filtered view, "
-    f"{very_high_count} customers fall into the Very High Risk band. Among the top 50 at-risk customers, "
+    f"{very_high_count} customers fall into the Very High Risk band.\n\n
+    f"Among the top 50 at-risk customers, "
     f"{month_to_month_share:.1f}% are on month-to-month contracts and {electronic_check_share:.1f}% use "
     f"electronic checks.\n\n"
     f"That pattern suggests the strongest retention focus should be placed on short-term "
